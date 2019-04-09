@@ -1,4 +1,4 @@
-package com.example.materialdesign;
+package com.example.materialdesign.Toolbar;
 
 import android.content.Intent;
 import android.support.design.widget.Snackbar;
@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.RelativeLayout;
+
+import com.example.materialdesign.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -45,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         if (menu == R.id.add)
         {
 
-            startActivity(new Intent(this,NewActivity.class));
+            startActivity(new Intent(this, NewActivity.class));
         }
 
         return true;

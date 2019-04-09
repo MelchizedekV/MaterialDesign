@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Archived"
+        android:orderInCategory="100"
+        android:title="Archived"/>
+    <item
+        android:id="@+id/mark"
+        android:orderInCategory="100"
+        android:title="Mark all as read" />
+    <item
+        android:id="@+id/block"
+        android:orderInCategory="100"
+        android:title="Blocked contacts" />
+
+</menu>
