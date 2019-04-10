@@ -1,15 +1,15 @@
-package com.example.materialdesign.framelayout;
+package com.example.materialdesign.NavigationDrawer;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.materialdesign.R;
 
-public class FrameLayout extends AppCompatActivity {
+public class NavigationDrawer extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_frame_layout);
+        setContentView(R.layout.activity_navigation_drawer);
     }
 }
