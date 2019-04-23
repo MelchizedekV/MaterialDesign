@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Device folder"
+        android:id="@+id/devfol"
+        android:icon="@drawable/foldericon"
+        />
+    <item
+        android:title="Archive"
+        android:id="@+id/archive"
+        android:icon="@drawable/archive"
+
+        />
+    <item
+        android:title="Trash"
+        android:id="@+id/trash"
+        android:icon="@drawable/trash"
+
+        />
+    <item
+        android:title="Free up space"
+        android:id="@+id/freeup"
+        android:icon="@drawable/freeup"
+
+       />
+
+    <item
+        android:title="Settings"
+        android:id="@+id/setting"
+        android:icon="@drawable/settings"
+
+       />
+
+
+
+</menu>

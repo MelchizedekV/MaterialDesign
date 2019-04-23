@@ -9,14 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NavigationDrawer.NavigationDrawer">
+        <activity android:name=".InternalStorage.DataHandling">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Toolbar.ToolbarTask"></activity>
+        <activity android:name=".NavigationDrawer.NavigationDrawer">
+
+        </activity>
+        <activity android:name=".framelayout.FrameLayout" />
+        <activity android:name=".Toolbar.ToolbarTask" />
         <activity android:name=".Toolbar.NewActivity" />
         <activity android:name=".Toolbar.MainActivity" />
     </application>

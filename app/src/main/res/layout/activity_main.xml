@@ -9,7 +9,7 @@
 
 
     <include
-        android:id="@+id/toolbar"
+        android:id="@+id/toolbarNavigation"
         layout="@layout/app_bar"
 
         />
